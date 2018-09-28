@@ -1,0 +1,25 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+div {
+    border: 1px dashed lightcoral;
+}
+
+.main {
+    flex-grow: 3;
+}
+
+.aside {
+    flex-grow: 1;
+}
+
+body {
+    font-family: monospace;
+}
