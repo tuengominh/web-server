@@ -6,6 +6,12 @@ class Main extends React.Component {
 
     render() {
 
-        return <div className="main">This is the main component</div>;
+        return (
+            <div className="main">
+                <Article title={"Java"} text={"Lorem ipsum dolo sit amet Lorem ipsum dolo sit amet"}/>
+                <Article title={"React/JS"} text={"Lorem ipsum dolo sit amet Lorem ipsum dolo sit amet"}/>
+                <Article title={"HTML/CSS"} text={"Lorem ipsum dolo sit amet Lorem ipsum dolo sit amet"}/>
+            </div>
+        );
     }
 }
